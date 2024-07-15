@@ -25,7 +25,7 @@ jobs:
         run: |
           python -m pip install PyQt6
           python -m pip install pydub
-          python -m pip pyinstaller
+          python -m pip install pyinstaller
 
       - name: Build with Pyinstaller
         run: |
